@@ -4,6 +4,7 @@ export default function WorkspaceLayout({ children }) {
   return (
     <div>
         <WorkspaceHeader/>
-        {children}</div>
+        {children}
+    </div>
   )
 }

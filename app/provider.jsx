@@ -32,14 +32,10 @@ function Provider({children}) {
 
   
     return (
-    
-    <div>
         <UserDetailContext.Provider value={{userDetail, setUserDetail}}>
-
+            {children}
         </UserDetailContext.Provider>
-        {children}
-    </div>
-  )
+    )
 }
 
 export default Provider
