@@ -7,16 +7,15 @@ export default function Greeting() {
   const user = useUser();
 
   return (
-    <div>
-        <div className = "flex justify-center gap-2 items-center">
-          <div className="user-profile-large inline-flex items-center justify-center p-2 rounded-full border-2 border-[#D4AF37] shadow-md hover:scale-105 transition-transform">
-            <UserButton />
-          </div>
-
-
-          <p className= "font-[family-name:var(--font-crimson-pro)] font-bold text-[#D4AF37]" > Welcome Back, {user?.displayName || user?.primaryEmail || 'Guest'}! </p>
+    <div className="flex flex-col items-center py-8">
+      <div className="flex justify-center items-center gap-8">
+        <div className="scale-300 inline-flex rounded-full border-2 border-[#D4AF37] p-0">
+          <UserButton />
         </div>
-   
+        <p className="p-7 font-[family-name:var(--font-crimson-pro)] font-bold text-[#D4AF37] text-4xl">
+          Welcome Back, {user?.displayName || user?.primaryEmail || 'Guest'}!
+        </p>
+      </div>
     </div>
-  )
+  );
 }

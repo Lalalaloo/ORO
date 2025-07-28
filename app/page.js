@@ -6,7 +6,8 @@ export default function Home() {
     <div>
       <h2>Homepage test</h2>
       <Button>Back</Button>
-      <UserButton/>
+        <UserButton />
+   
     </div>
   );
 }

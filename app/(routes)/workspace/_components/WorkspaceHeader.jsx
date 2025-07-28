@@ -12,11 +12,11 @@ export default function WorkspaceHeader() {
       <div className="grid grid-cols-3 items-center px-4 sm:px-6 lg:px-8 py-3 sm:py-4 lg:py-6">
         
         <div className="flex justify-start">
-          <h1 className="text-lg sm:text-xl lg:text-2xl font-semibold">.</h1>
+          <h1 className="text-lg sm:text-xl lg:text-2xl font-semibold">BACK</h1>
         </div>
 
         <div className="flex justify-center">
-          <Image src="/oro.svg" alt="Logo" width={50} height={50} className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:w-14" />
+          <Image src="/oro.svg" alt="Logo" width={50} height={50} className="w-15 h-15 sm:w-12 sm:h-12 lg:w-14 lg:w-14" />
         </div>
 
         <div className="flex justify-end">
